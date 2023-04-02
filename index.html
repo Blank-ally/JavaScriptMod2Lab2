@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stith Mod 2:Lab 2</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+  <form action="javascript:addPet()">
+    <h3>Pet form</h3>
+
+    <label for="petName">Name:</label>
+    <input id="petName" type="text" name="name" required>
+
+    <label for="petBirthday">Birthday:</label>
+    <input id="petBirthday" type="date" name="birthday" required>
+<!-- practice for assignment-->
+    <label for="select" > Pet Type</label>
+     <select id="select" required>
+    <option disabled selected value> Select an animal type </option>
+    <option value="Cat">Cat</option>
+    <option value="Dog">Dog</option>
+  </select>
+<!---->
+   
+    <input type="submit" value="Add Pet">
+  </form>
+
+<div id="pets" class="pet">
+  <h3>Pets:</h3>
+  <p class="pet-name"> 
+  </p> 
+  <p class="pet-birthday">
+  </p>
+</div>
+
+</div>
+  <script src="/js/main.js" ></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+:root{
+    --background: #170a05;
+    --clickable: #D98289;
+}    
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+   
+}
+
+header {
+    text-align: center;
+    margin: 30px;
+}
+
+form {
+    width: 200px;
+    margin: 60px auto;
+    display: block;
+    padding: 100px;
+    background-color: rgba(23, 10, 5,.8);
+    box-shadow: 0 0 7px rgba(0,0,0,.25);
+    color: #f5f5f5;
+
+}
+
+form h3 {
+    text-align: center;
+    padding: 15px;
+    opacity: 1;
+
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;   
+    opacity: 1;
+    color: #f5f5f5;
+}
+
+form input {
+   
+    display: block;
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 10px auto;
+    border-radius: 18px;
+    color: #16164F;
+}
+
+form input[type='submit'] {
+    margin: 20px 0;
+    background-color:var(--clickable);
+    cursor: pointer;
+    border: 1px solid #999999;
+    padding: 10px;
+    margin:40px auto;
+    font-size: 16px;
+    color: #f5f5f5;
+    
+}
+ form select{
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 10px auto;
+    border-radius: 18px;
+    color: #16164F;
+   
+}
+
+
+body{
+    background-image: url("/css/media/group-portrait-adorable-puppies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F2E8E4;
+}
+.pet{
+    color: #f5f5f5;
+}
+
+.pet:hover{
+    cursor: pointer;
+    color:var(--background);
+
+
+
+}
+
+
+
+
+#pets{
+    width: 300px;
+    margin: 60px auto;
+    display: block;
+    padding: 50px;
+    background-color:rgba(23, 10, 5,.8);
+    text-align: center;
+    box-shadow: 0 0 7px rgba(0,0,0,.25);
+    color: #f5f5f5;
+}
+
+.pet-name{
+  font-weight: bold;
+}
+.pet {
+    --border-radius: 0.75rem;
+    margin:10px auto;
+    width: 210px;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    background: var(--clickable);
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+    position: relative;
+    text-align: left;
+   font-size: medium;
+
+  }
+  
+
+  
+  
+ 
+
